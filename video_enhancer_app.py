@@ -3,6 +3,9 @@ import subprocess
 import os
 import tempfile
 
+# ✅ Set browser tab title and icon
+st.set_page_config(page_title="Video Enhancer Tool", page_icon="🎞️")
+
 # Path to FFmpeg (Update if needed)
 ffmpeg_path = r"C:\Users\karth\Downloads\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe"
 

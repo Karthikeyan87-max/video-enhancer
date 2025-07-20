@@ -6,8 +6,8 @@ import tempfile
 # ✅ Set browser tab title and icon
 st.set_page_config(page_title="Video Enhancer Tool", page_icon="🎞️")
 
-# Path to FFmpeg (Update if needed)
-ffmpeg_path = r"C:\Users\karth\Downloads\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe"
+# ✅ Use default ffmpeg path (works both locally if in PATH and on Streamlit Cloud)
+ffmpeg_path = "ffmpeg"
 
 # UI Setup
 st.title("🎞️ Video Enhancer Tool")
